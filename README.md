@@ -34,31 +34,35 @@ nvm --version
 
 ## Install node.js version 18 and yarn
 
+Install node version 18
 ```
-# Install node version 18
-$ nvm install 18
-# Check the node version
-$ node --version
-Now using node v18.20.1 (npm v10.5.0)
+nvm install 18
+```
+Check the node version
+```
+node --version
+```
+You should see: `Now using node v18.20.1 (npm v10.5.0)`
+If you see a different version, do this
+```
+nvm use 18
+```
 
-# If you see a different version, do this
-$ nvm use 18
-
-# Install yarn (globally)
-$ npm i -g yarn
-...
+Install yarn (globally)
+```
+npm i -g yarn
 ```
 
 ## Build stuff
 This will do lots of stuff that is mostly magic at this point.
 ```
-$ yarn
+yarn
 ```
 
 ## Start the electron app
 The first time you do this, more magical things happen to complete the build.  Subsequent invocations are quicker.
 ```
-$ yarn start:electron
+yarn start:electron
 ```
 You'll see the application open, but you cannot view traces yet.  You can open a folder, open files in the editor, do git stuff.
 
@@ -66,12 +70,14 @@ You'll see the application open, but you cannot view traces yet.  You can open a
 In order to view traces you need to download and start the trace server, and download
 the example traces (at least until we have our own sample traces)
 
+The sample traces will be in the TraceCompassTutorialTraces folder in to repo root
 ```
-# The sample traces will be in the TraceCompassTutorialTraces folder in to repo root
 $ yarn download:sample-traces
 $ yarn download:server
+```
 
-# You may want to do this in a separate shell so it is easy to kill later (via ctrl-c)
+You may want to do this in a separate shell so it is easy to kill later (via ctrl-c)
+```
 $ yarn start:server
 ```
 
