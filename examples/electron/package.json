@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "electron-theia-trace-example-app",
+    "name": "shinro-ipe-app",
     "main": "scripts/theia-trace-main.js",
     "version": "0.1.0",
     "author": {
@@ -16,7 +16,7 @@
         },
         "frontend": {
             "config": {
-                "applicationName": "Theia-Trace Example Application",
+                "applicationName": "MIPS Shinro IPE",
                 "preferences": {
                     "editor.autoSave": "on",
                     "trace-viewer.port": 8080
@@ -26,20 +26,22 @@
     },
     "dependencies": {
         "@theia/core": "1.45.1",
-        "@theia/editor": "1.45.1",
+        "@theia/git": "1.45.1",
+        "@theia/scm-extra": "1.45.1",
+        "@theia/toolbar": "1.45.1",
         "@theia/electron": "1.45.1",
+        "@theia/editor": "1.45.1",
         "@theia/filesystem": "1.45.1",
-        "@theia/getting-started": "1.45.1",
+        "@theia/workspace": "1.45.1",
+        "@theia/navigator": "1.45.1",
         "@theia/keymaps": "1.45.1",
         "@theia/markers": "1.45.1",
         "@theia/messages": "1.45.1",
         "@theia/monaco": "1.45.1",
-        "@theia/navigator": "1.45.1",
         "@theia/preferences": "1.45.1",
         "@theia/process": "1.45.1",
         "@theia/terminal": "1.45.1",
-        "@theia/vsx-registry": "1.45.1",
-        "@theia/workspace": "1.45.1",
+        "@theia/getting-started": "1.45.1",
         "theia-traceviewer": "0.2.0"
     },
     "devDependencies": {
