@@ -10,6 +10,16 @@ Changes we've made:
 - Almost all the "IDE" features have been removed (for now...)
 - The application name has been set to "MIPS Shinro IPE"
 
+## Other related links
+
+- [Shinro App Block Diagram](https://wavesemi-my.sharepoint.com/:u:/g/personal/kmills_mips_com/EfAETD64JLZEmRujV3HFVkMBJw6JBPAuk87s2Yfwo-Z21g?e=dDO7v2)
+- [Upstream Repo](https://github.com/eclipse-cdt-cloud/theia-trace-extension)
+- [Tracecompass-server source code](https://github.com/eclipse-tracecompass-incubator/org.eclipse.tracecompass.incubator/tree/master/trace-server)
+- [Common Trace Format](https://diamon.org/ctf/)
+- [barectf](https://barectf.org/docs/barectf/3.1/index.html)
+- [List of @theia plugins](https://www.npmjs.com/search?q=%40theia)
+- [open-vsx registry](https://open-vsx.org/) (vscode plugins)
+  
 # Setting Up The Development Environment (on Linux)
 
 ## Linux packages:
@@ -20,7 +30,7 @@ sudo apt install build-essential libx11-dev libxkbfile-dev libsecret-1-dev
 
 ### Install nvm (if you haven't already): 
 
-https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
+[Install nvm instruction](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
