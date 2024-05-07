@@ -1,7 +1,7 @@
 {
     "private": true,
     "scripts": {
-        "reset": "git clean -fdx . && yarn && yarn build && rm -rf ~/.config/shinro-ipe-app/ && yarn download:server && yarn download:sample-traces",
+        "reset": "git clean -fdx . && yarn && yarn build && rm -rf ~/.config/mips-performance-explorer/ && yarn download:server && yarn download:sample-traces",
         "prepare": "yarn build",
         "build": "yarn -s clean && yarn -s tsref && yarn -s tsbuild && yarn -s build:examples && yarn -s download:plugins",
         "tsref": "node scripts/typescript-references.js",

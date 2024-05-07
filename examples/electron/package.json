@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "shinro-ipe-app",
+    "name": "mips-performance-explorer",
     "main": "scripts/theia-trace-main.js",
     "version": "0.1.0",
     "author": {
@@ -16,7 +16,7 @@
         },
         "frontend": {
             "config": {
-                "applicationName": "MIPS Shinro IPE",
+                "applicationName": "MIPS Performance Explorer",
                 "preferences": {
                     "editor.autoSave": "on",
                     "trace-viewer.port": 8080

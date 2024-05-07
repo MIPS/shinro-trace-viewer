@@ -8,7 +8,7 @@ Changes we've made:
 
 - This readme is entirely different, and focussed for internal MIPS developers (there is useful info in the upstream README though, so feel free to go read it)
 - Almost all the "IDE" features have been removed (for now...)
-- The application name has been set to "MIPS Shinro IPE"
+- The application name has been set to "MIPS Performance Explorer"
 
 ## Other related links
 
